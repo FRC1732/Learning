@@ -16,6 +16,8 @@ Make a new branch with your group name, then clone this repository into eclipse.
 
 See the DriveBackWardsTwice and DriveBackwards classes in the command package for an example of using the encoders.
 
+Play around with the commands a bit before you try out the challenge.
+
 Here are some resources to look at:
 
 https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599717-encoders-measuring-rotation-of-a-wheel-or-other-shaft
