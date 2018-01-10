@@ -12,7 +12,7 @@ This will be a little tricky but persevere!
 
 You should use the command based system for the autonomous.
 
-Clonse this repository. It has an example of how to use the commands.
+Make a new branch with your group name, then clone this repository into eclipse. It has an example of how to use the commands.
 
 Here are some resources to look at:
 
