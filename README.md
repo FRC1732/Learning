@@ -14,7 +14,9 @@ You should use the command based system for the autonomous.
 
 Make a new branch with your group name, then clone this repository into eclipse. It has an example of how to use the commands.
 
-Then you will need to configure the CANids of the motors and figure out which side needs to be inverted. Look in the Drivetrain class.
+Then you will need to configure the CANids of the motors and figure out which side needs to be inverted. Look in the Drivetrain class in the subsystem package.
+
+See the DriveBackWardsTwice and DriveBackwards classes in the command package for an example of using the encoders.
 
 Here are some resources to look at:
 
