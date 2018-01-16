@@ -23,12 +23,12 @@ public class Drivetrain extends Subsystem {
 	private static final double DISTANCE_PER_PULSE = 0.1;
 
 	public Drivetrain() {
-		leftTalonMaster = configureMasterTalon(1, reverseLeftSide);
-		configureFollowerTalon(2, leftTalonMaster.getDeviceID());
-		configureFollowerTalon(3, leftTalonMaster.getDeviceID());
-		rightTalonMaster = configureMasterTalon(4, reverseRightSide);
-		configureFollowerTalon(5, rightTalonMaster.getDeviceID());
-		configureFollowerTalon(6, rightTalonMaster.getDeviceID());
+		leftTalonMaster = configureMasterTalon(13, reverseLeftSide);
+		configureFollowerTalon(14, leftTalonMaster.getDeviceID());
+		configureFollowerTalon(15, leftTalonMaster.getDeviceID());
+		rightTalonMaster = configureMasterTalon(19, reverseRightSide);
+		configureFollowerTalon(20, rightTalonMaster.getDeviceID());
+		configureFollowerTalon(21, rightTalonMaster.getDeviceID());
 		leftEncoder.setDistancePerPulse(DISTANCE_PER_PULSE);
 		rightEncoder.setDistancePerPulse(DISTANCE_PER_PULSE);
 	}

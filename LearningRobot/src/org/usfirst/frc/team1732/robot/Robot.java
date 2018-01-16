@@ -7,7 +7,7 @@
 
 package org.usfirst.frc.team1732.robot;
 
-import org.usfirst.frc.team1732.robot.commands.DriveBackwardsTwice;
+import org.usfirst.frc.team1732.robot.commands.DriveInSquare;
 
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
@@ -25,7 +25,7 @@ public class Robot extends TimedRobot {
 	@Override
 	public void robotInit() {
 		drivetrain = new Drivetrain();
-		autoCommand = new DriveBackwardsTwice(); // change this to your auto command
+		autoCommand = new DriveInSquare(); // change this to your auto command
 	}
 
 	@Override
