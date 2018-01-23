@@ -18,8 +18,14 @@ See the DriveBackWardsTwice and DriveBackwards classes in the command package fo
 
 Play around with the commands a bit before you try out the challenge.
 
+Hint: you need to know how far apart the wheels are
+
 Here are some resources to look at:
 
 https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599717-encoders-measuring-rotation-of-a-wheel-or-other-shaft
 
 https://wpilib.screenstepslive.com/s/currentCS/m/java/l/599732-what-is-command-based-programming
+
+Secondary challenges:
+
+-get the robot to drive in a circle of arbitrary radius
