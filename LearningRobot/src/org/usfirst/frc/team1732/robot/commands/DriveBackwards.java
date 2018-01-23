@@ -11,10 +11,12 @@ public class DriveBackwards extends Command {
 	private EncoderReader leftEncoder;
 	private EncoderReader rightEncoder;
 
-	public DriveBackwards() {
+	public DriveBackwards(EncoderReader leftEncoder, EncoderReader rightEncoder) {
 		// Use requires() here to declare subsystem dependencies
 		// eg. requires(chassis);
 		requires(Robot.drivetrain);
+		this.leftEncoder = leftEncoder;
+		this.rightEncoder = rightEncoder;
 	}
 
 	// Called just before this Command runs the first time
